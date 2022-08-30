@@ -1,9 +1,10 @@
-alert('Com a nossa mensagem.');
+//alert('Com a nossa mensagem.');
 
-const confirma = confirm('Deseja realmente apagar?');
+//const confirma = confirm('Deseja realmente apagar?');
 
-alert(confirma);
+//alert(confirma);
 
-let teste = prompt("Digite o seu nome: ");
+let num1 = Number(prompt("Digite o primeiro número: "));
+let num2 = Number(prompt("Digite o segundo número: "));
 
-alert("Meu nome é " + teste);
+alert(`O valor da soma dos dois números é: ${num1 + num2}`);
